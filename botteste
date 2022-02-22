@@ -29,18 +29,18 @@ client.on("message", async message => {
     const comando = args.shift().toLowerCase();
 
 
-    if(comando === "pai") {
+    if(comando === "") {
         const m = await message.channel.send("Pai?");
-        m.edit(`Pai! Não tenho :c Inclusive, saudades dele.`);
+        m.edit(``);
     }
 
     if(comando === "chamando"){
-        const m = await message.channel.send("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-        m.edit(`CHAMANDO TODOS @everyone VEM BOIADA`);
+        const m = await message.channel.send("")
+        m.edit();
     }
 
-    if(comando === "video") {
-        const m = await message.channel.send("Vídeo novo rapaziada https://www.youtube.com/watch?v=f0mlq1ab3jA @everyone")
+    if(comando === "") {
+        const m = await message.channel.send("")
     }
 
     
